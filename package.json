@@ -1,6 +1,6 @@
 {
-  "homepage": ".",
-  "name": "dr-inverter-site",
+  "homepage": "https://viniciusc4.github.io/site-imersao",
+  "name": "site-imersao",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
