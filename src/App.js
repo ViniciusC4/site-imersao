@@ -21,12 +21,12 @@ const CONFIG = {
   dataFim: '9 de Abril',
 
   // --- Textos do Hero ---
-  heroTitle: 'IMERSÃO GRATUITA em Reparo e Análise de Placas Eletrônicas Inverter',
-  heroSubtitle: 'Entre no nosso grupo exclusivo do WhatsApp e participe da imersão gratuita que acontecerá de 6 a 9 de abril.',
+  heroTitle: 'EVENTO GRATUITO em Reparo e Análise de Placas Eletrônicas Inverter',
+  heroSubtitle: 'Entre no nosso grupo exclusivo do WhatsApp e participe desse evento gratuito que acontecerá de 6 a 9 de abril.',
 
   // --- Textos do CTA final ---
   ctaTitle: 'Pronto para Dominar a Eletrônica Inverter?',
-  ctaText: 'Junte-se a centenas de técnicos que já estão evoluindo na nossa comunidade exclusiva. Conteúdo prático, suporte real e networking com os melhores do mercado.',
+  ctaText: 'Conteúdo prático, suporte real e networking com o melhor do mercado.',
 
   // --- Rodapé ---
   footerText: '© 2026 Dr. Inverter - Solução em Placas Eletrônicas. Todos os direitos reservados.',
@@ -222,7 +222,7 @@ function App() {
       {/* ── Seção de Autoridade ── */}
       <section className="authority-section">
         <div className="container">
-          <h2 className="section-title white">Seu Mentor na Imersão</h2>
+          <h2 className="section-title white">Seu Professor ao Decorrer das Aulas</h2>
           <div className="authority-content">
             <div className="authority-card">
               <img src={mentorPhoto} alt="Cleyton Henrique, o Dr. Inverter" className="mentor-photo" />
