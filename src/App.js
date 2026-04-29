@@ -18,7 +18,7 @@ const CONFIG = {
 
   // --- Datas da imersão ---
   dataInicio: '4 de Maio',
-  dataFim: '7 de Abril',
+  dataFim: '7 de Maio',
 
   // --- Textos do Hero ---
   heroTitle: 'EVENTO GRATUITO em Reparo e Análise de Placas Eletrônicas Inverter',
