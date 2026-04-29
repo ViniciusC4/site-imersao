@@ -17,8 +17,8 @@ const CONFIG = {
   tiktokLink: 'https://www.tiktok.com/@drinverter?_r=1&_t=ZS-94lc6nzi1kT',
 
   // --- Datas da imersão ---
-  dataInicio: '6 de Abril',
-  dataFim: '9 de Abril',
+  dataInicio: '4 de Maio',
+  dataFim: '7 de Abril',
 
   // --- Textos do Hero ---
   heroTitle: 'EVENTO GRATUITO em Reparo e Análise de Placas Eletrônicas Inverter',
