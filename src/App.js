@@ -35,28 +35,28 @@ const CONFIG = {
   modulos: [
     {
       id: 1,
-      titulo: 'MÓDULO 1. Conhecendo as placas inverter',
+      titulo: 'Conhecendo as placas inverter',
       descricao: 'Entenda o funcionamento das placas inverter, identifique os principais setores da placa e aprenda como iniciar uma análise correta.',
       imagem: modulo1, // ← Substitua pela URL da imagem
       icone: 'target'
     },
     {
       id: 2,
-      titulo: 'MÓDULO 2. Erros comuns nas placas inverter',
+      titulo: 'Erros comuns nas placas inverter',
       descricao: 'Descubra os defeitos mais comuns encontrados nas placas inverter e como identificá-los rapidamente no diagnóstico.',
       imagem: modulo2, // ← Substitua pela URL da imagem
       icone: 'wrench'
     },
     {
       id: 3,
-      titulo: 'MÓDULO 3. Analisando a placa na prática',
+      titulo: 'Analisando a placa na prática',
       descricao: 'Veja na prática como analisar uma placa inverter passo a passo utilizando técnicas de medição e mapeamento.',
       imagem: modulo3, // ← Substitua pela URL da imagem
       icone: 'search'
     },
     {
       id: 4,
-      titulo: 'MÓDULO 4. Como ligar uma placa na bancada',
+      titulo: 'Como ligar uma placa na bancada',
       descricao: 'Aprenda como energizar e testar uma placa inverter na bancada com segurança para realizar diagnósticos profissionais.',
       imagem: modulo4, // ← Substitua pela URL da imagem
       icone: 'dollar'
@@ -188,7 +188,6 @@ function App() {
       <section className="benefits-section">
         
         <div className="container">
-          <h2 className="section-title.white">O que você vai aprender nessa imersão?</h2>
           <div className="benefits-grid">
             {CONFIG.modulos.map((modulo) => (
               <div key={modulo.id} className="benefit-card" style={{ backgroundImage: `url(${modulo.imagem})` }}>
