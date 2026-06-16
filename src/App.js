@@ -188,7 +188,7 @@ function App() {
       <section className="benefits-section">
         
         <div className="container">
-          <h2 className="section-title">O que você vai aprender nessa imersão?</h2>
+          <h2 className="section-title.white">O que você vai aprender nessa imersão?</h2>
           <div className="benefits-grid">
             {CONFIG.modulos.map((modulo) => (
               <div key={modulo.id} className="benefit-card" style={{ backgroundImage: `url(${modulo.imagem})` }}>
