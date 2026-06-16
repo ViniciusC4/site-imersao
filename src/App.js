@@ -18,7 +18,7 @@ const CONFIG = {
 
   // --- Textos do Hero ---
   heroTitle: 'EVENTO GRATUITO em Reparo e Análise de Placas Eletrônicas Inverter',
-  heroSubtitle: 'Entre no nosso grupo exclusivo do WhatsApp e participe desse evento gratuito que acontecerá de 4 a 7 de maio.',
+  heroSubtitle: 'Entre no nosso grupo exclusivo do WhatsApp e participe do grupo de aulas gratuitas com o Dr. Inverter!',
 
   // --- Textos do CTA final ---
   ctaTitle: 'Pronto para Dominar a Eletrônica Inverter?',
