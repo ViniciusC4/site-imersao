@@ -16,10 +16,6 @@ const CONFIG = {
   youtubeLink: 'https://youtube.com/@dr.inverterplacas?si=4UC-0eL3nqqJOz2v',
   tiktokLink: 'https://www.tiktok.com/@drinverter?_r=1&_t=ZS-94lc6nzi1kT',
 
-  // --- Datas da imersão ---
-  dataInicio: '4 de Maio',
-  dataFim: '7 de Maio',
-
   // --- Textos do Hero ---
   heroTitle: 'EVENTO GRATUITO em Reparo e Análise de Placas Eletrônicas Inverter',
   heroSubtitle: 'Entre no nosso grupo exclusivo do WhatsApp e participe desse evento gratuito que acontecerá de 4 a 7 de maio.',
@@ -163,12 +159,6 @@ function App() {
               <span className="gradient-text">{CONFIG.heroTitle}</span>
             </h1>
 
-            {/* Datas em destaque */}
-            <div className="dates-highlight">
-              <span className="date-badge start-date">Começa: {CONFIG.dataInicio}</span>
-              <span className="date-badge end-date">Termina: {CONFIG.dataFim}</span>
-            </div>
-
             <p className="hero-subtitle">{CONFIG.heroSubtitle}</p>
 
             <Button href={CONFIG.whatsappGroupLink} className="btn-primary btn-pulse btn-whatsapp">
@@ -196,9 +186,9 @@ function App() {
 
       {/* ── Seção de Módulos com Imagens ── */}
       <section className="benefits-section">
+        
         <div className="container">
-          <h2 className="section-title white">Coloque na sua agenda para lembrar de participar!</h2>
-
+          <h2 className="section-title">O que você vai aprender nessa imersão?</h2>
           <div className="benefits-grid">
             {CONFIG.modulos.map((modulo) => (
               <div key={modulo.id} className="benefit-card" style={{ backgroundImage: `url(${modulo.imagem})` }}>
